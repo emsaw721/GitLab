@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+TODO: Everything is the same length regardless of content. 
 */
 nav {
   display: flex;
@@ -32,7 +32,7 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+TODO: When the screen gets smaller, the contents shift into multiple lines as opposed to staying in a single line. The direction of the cross-axis is the direction the items go in.  
 */
 main {
   display: flex;
@@ -56,7 +56,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+TODO: Aligns flex items along the main axis (x-axis) of the current line of the flex container. 
 */
 .products {
   flex: 4;
@@ -70,7 +70,11 @@ TODO: Write your answer here
 /* 
 What is the flex property a shorthand property for?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: flex: <flex-grow value> (how much it is allowed to grow) 
+            <flex-shrink value> (how much it is allowed to shrink) 
+            <flex-basis value> (initial starting value) 
+      
+      Setting size requirements regardless of screen size. 
 */
 .card {
   border-style: solid;
@@ -95,7 +99,7 @@ TODO: Write your answer here
 /* 
 What does the flex-direction property define?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: Specifies how flex items are placed in the flex container. Arrainging items in a column (y-axis). 
 */
 @media screen and (max-width: 768px) {
   main,

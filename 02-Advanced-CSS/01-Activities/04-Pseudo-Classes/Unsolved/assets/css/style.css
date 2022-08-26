@@ -89,6 +89,18 @@ footer {
 
 /* TODO: Add styles to display and hide the resource links */
 
+.resources ul {
+  display: none;  
+}
+
+.resources:hover ul {
+  display: block; 
+
+} 
+ .resources ul li a {
+  text-decoration: none; 
+ }
+
 @media screen and (max-width: 768px) {
   header, main {
     flex-direction: column;
@@ -103,3 +115,5 @@ footer {
     text-align: center;
   }
 }
+
+
